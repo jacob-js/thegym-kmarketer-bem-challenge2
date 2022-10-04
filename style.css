@@ -5,6 +5,8 @@
     --dark: #252B42;
     --light-bg: #FAFAFA;
     --light: #737373;
+    --default: #FFA62B;
+    --primary: #00A0C1;
 }
 
 *{
@@ -27,6 +29,8 @@ body{
     background-color: var(--light-bg);
     padding-top: 30px;
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar{
@@ -60,4 +64,60 @@ body{
 
 .navbar__toggle-icon{
     cursor: pointer;
+}
+
+.s-hero{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.c-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+.c-title--hero{
+    font-size: 58px;
+    max-width: 727px;
+}
+.c-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--light);
+}
+.c-subtitle--hero{
+    max-width: 539px;
+}
+
+.s-hero__btn-container{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    background: none;
+    border: none;
+    padding: 15px 36px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn--rounded{
+    border-radius: 37px;
+}
+.btn--default{
+    background-color: var(--default);
+    color: white;
+}
+.btn--outline{
+    color: var(--primary);
+    border-color: var(--primary);
 }
