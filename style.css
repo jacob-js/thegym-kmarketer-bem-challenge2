@@ -80,6 +80,7 @@ body{
     font-weight: 700;
     font-size: 40px;
     text-align: center;
+    max-width: 461px;
 }
 .c-title--hero{
     font-size: 58px;
@@ -170,4 +171,29 @@ body{
     line-height: 20px;
     letter-spacing: 0.2px;
     color: var(--light);
+}
+
+.features--last{
+    background-color: var(--light-bg);
+    position: relative;
+    padding: 60px 150px;
+}
+.features--last::after{
+    content: '';
+    position: absolute;
+    height: 380px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0%;
+    z-index: 9;
+    background: #06343d;
+}
+
+.features__content{
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
