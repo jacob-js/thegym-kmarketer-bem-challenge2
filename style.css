@@ -131,7 +131,7 @@ body{
     padding: 150px;
     gap: 20px;
 }
-.c-subtitle--features{
+.c-subtitle--sm{
     max-width: 470px;
     font-size: 14px;
     line-height: 20px;
@@ -196,4 +196,62 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--light-bg);
+    gap: 30px;
+}
+
+.clients__items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.clients__card{
+    padding: 30px 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.clients__rate{
+    max-width: min-content;
+}
+
+.clients__para{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--light);
+    letter-spacing: 0.2px;
+}
+
+.clents__user-details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.clients__name{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--default);
+}
+
+.clients__job{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
 }
