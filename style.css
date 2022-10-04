@@ -77,14 +77,14 @@ body{
 
 .c-title{
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 40px;
     text-align: center;
-    letter-spacing: 0.2px;
 }
 .c-title--hero{
     font-size: 58px;
     max-width: 727px;
+    font-weight: 800;
 }
 .c-subtitle{
     font-weight: 500;
@@ -93,7 +93,7 @@ body{
     text-align: center;
     color: var(--light);
 }
-.c-subtitle--hero{
+.c-subtitle--md{
     max-width: 539px;
 }
 
@@ -120,4 +120,54 @@ body{
 .btn--outline{
     color: var(--primary);
     border-color: var(--primary);
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 150px;
+    gap: 20px;
+}
+.c-subtitle--features{
+    max-width: 470px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.features__items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.features__card{
+    border: 1px solid #E8E8E8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 40px;
+    gap: 20px;
+}
+.features__item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.features__name{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+
+.features__desc{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--light);
 }
