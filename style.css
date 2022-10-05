@@ -208,7 +208,7 @@ body{
     gap: 30px;
 }
 
-.clients__items{
+.l-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -254,4 +254,47 @@ body{
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
+}
+
+.team__card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.team__infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.team__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+.team__job{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--light);
+}
+
+.team__soc{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team__soc-icon{
+    color: var(--primary);
+    font-size: 24px;
 }
