@@ -452,17 +452,19 @@ input::placeholder{
 }
 
 .footer__news-letter{
-    display: flex;
     background-color: white;
     border-radius: 5px;
     border: 1px solid white;
+    display: flex;
 }
 
 .footer__input{
+    display: block;
     background: none;
     border: none;
     outline: none;
     padding: 0 15px;
+    height: 100%;
 }
 
 .btn--semi-rounded{
@@ -484,4 +486,63 @@ input::placeholder{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
+}
+
+@media (max-width: 450px) {
+    .btn{
+        width: 100%;
+    }
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .navbar__menus{
+        display: none;
+    }
+    .c-title--hero{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .features__items{
+        grid-template-columns: 1fr;
+    }
+    .s-hero__btn-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__cover{
+        height: 442px;
+        width: 306px;
+        object-fit: cover;
+    }
+    .l-items{
+        grid-template-columns: 1fr;
+    }
+    .flex-content{
+        flex-direction: column;
+    }
+    .footer__bottom{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .footer__top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer__news-letter{
+        width: 100%;
+    }
+    .footer__input{
+        width: 60%;
+    }
+    .btn--footer{
+        padding: 10px;
+        width: max-content;
+    }
+    .s-hero{
+        margin-top: 50px;
+    }
+    .clients__card{
+        flex: 1;
+    }
 }
