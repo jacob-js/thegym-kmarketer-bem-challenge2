@@ -545,4 +545,7 @@ input::placeholder{
     .clients__card{
         flex: 1;
     }
+    .footer__author{
+        text-align: center;
+    }
 }
