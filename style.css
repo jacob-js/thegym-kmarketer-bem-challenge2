@@ -487,6 +487,13 @@ input::placeholder{
     line-height: 24px;
     letter-spacing: 0.2px;
 }
+.team__img-container{
+    width: 100%;
+    overflow: hidden;
+}
+.team__img{
+    max-width: 100%;
+}
 
 @media (max-width: 450px) {
     .btn{
@@ -547,5 +554,32 @@ input::placeholder{
     }
     .footer__author{
         text-align: center;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 800px) {
+    .container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .navbar__menus{
+        display: none;
+    }
+    .features__items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .features__cover{
+        height: 442px;
+        width: 450px;
+        object-fit: cover;
+    }
+    .l-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .flex-content{
+        flex-direction: column;
+    }
+    .footer__bottom{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
