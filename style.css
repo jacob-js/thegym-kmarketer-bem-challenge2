@@ -18,6 +18,10 @@ body{
     box-sizing: border-box;
     color: var(--dark);
 }
+input::placeholder{
+    color: #BDBDBD;
+    font-weight: 700;
+}
 
 .container{
     padding-left: 150px;
@@ -346,8 +350,8 @@ body{
 }
 
 .contact-bar{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: var(--light-bg);
 }
 
@@ -363,4 +367,121 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer{
+    background-color: var(--dark);
+    color: white;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.footer__soc{
+    display: flex;
+    gap: 15px;
+}
+
+.footer__soc-icon{
+    font-size: 24px;
+}
+
+.footer__soc-icon--twi{
+    color: var(--primary);
+}
+
+.footer__soc-icon--fac{
+    color: #335BF5;
+}
+
+.footer__soc-icon--insta{
+    color: #E51F5A;
+}
+
+.footer__soc-icon--you{
+    color: #E42F08;
+}
+
+.footer__divider{
+    width: 100%;
+    border: 1px solid #364067;
+    margin: 50px 0;
+}
+
+.footer__bottom{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.footer__menus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 10px;
+}
+
+.footer__menu{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    cursor: pointer;
+}
+
+.footer__news-letter{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.footer__input{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+
+.btn--semi-rounded{
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+}
+
+.footer__menu--sm{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer__author{
+    background: #16697A;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
 }
