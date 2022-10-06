@@ -179,12 +179,12 @@ input::placeholder{
     color: var(--light);
 }
 
-.features--last{
+.features--services{
     background-color: var(--light-bg);
     position: relative;
     padding: 60px 150px;
 }
-.features--last::after{
+.features--services::after{
     content: '';
     position: absolute;
     height: 380px;
@@ -294,13 +294,13 @@ input::placeholder{
     color: var(--light);
 }
 
-.team__soc{
+.team__socials{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.team__soc-icon{
+.team__socials-icon{
     color: var(--primary);
     font-size: 24px;
 }
@@ -363,7 +363,7 @@ input::placeholder{
     text-align: left;
 }
 
-.contact-bar__texts{
+.contact-bar__description{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -392,28 +392,28 @@ input::placeholder{
     color: white;
 }
 
-.footer__soc{
+.footer__socials{
     display: flex;
     gap: 15px;
 }
 
-.footer__soc-icon{
+.footer__socials-icon{
     font-size: 24px;
 }
 
-.footer__soc-icon--twi{
+.footer__socials-icon--twi{
     color: var(--primary);
 }
 
-.footer__soc-icon--fac{
+.footer__socials-icon--fac{
     color: #335BF5;
 }
 
-.footer__soc-icon--insta{
+.footer__socials-icon--insta{
     color: #E51F5A;
 }
 
-.footer__soc-icon--you{
+.footer__socials-icon--you{
     color: #E42F08;
 }
 
