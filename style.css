@@ -18,7 +18,7 @@ body{
     box-sizing: border-box;
     color: var(--dark);
 }
-input::placeholder{
+.c-input::placeholder{
     color: #BDBDBD;
     font-weight: 700;
 }
