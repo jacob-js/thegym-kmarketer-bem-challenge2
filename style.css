@@ -239,7 +239,7 @@ body{
     letter-spacing: 0.2px;
 }
 
-.clents__user-details{
+.clients__user-details{
     display: flex;
     align-items: center;
     gap: 15px;
